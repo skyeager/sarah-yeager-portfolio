@@ -7,6 +7,20 @@ html, body {
   font-family: Montserrat, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
 div#main {
   flex-direction: column;
   display: flex;
