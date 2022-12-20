@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/portfolio-image.jpg";
+import image from "../images/desk-notepad.jpg";
 
-const imageAltText = "portfolio image";
+const imageAltText = "desk with notepad";
 
 /**
  * Project list
@@ -31,28 +31,34 @@ const imageAltText = "portfolio image";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Matching Pairs",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "The Matching Pairs game delivers an interactive card-matching game through the integration of foundational programming languages: HTML, CSS, and Javascript. Programming concepts illustrated include understanding of scope, function parameters, events listeners, proper syntax and well-organized code.",
+    url: "https://matching-pairs.surge.sh/",
+  },
+  // {
+  //   title: "Wander VT",
+  //   description:
+  //     "Wander VT is a full-stack application that serves the active outdoor community of Vermont. This web application includes information regarding elevation, difficulty, distance, and hiker reviews of the most popular hikes in Vermont. Visitors to the Wander VT site, have the ability to read reviews by previous hikers. Further, individuals can also create, update, and delete reviews. This is achieved without user profiles or user authentication. Wander VT is a full-stack project that provide hikers of Vermont with two offerings--more information on Vermont's trails and the ability to document and provide feedback on listed hikes.",
+  //   url: "https://github.com/skyeager/Wander-VT",
+  // },
+  {
+    title: "Waterpark-Bites",
+    description:
+      "Waterpark-Bites is a full-stack web application that provides waterpark visitors a virtual menu to the waterpark concession stand. Customers can peruse through each menu category to learn more about the different items. Each item will display a description of the item and their cost. This page also offers the ability to create new menu items or delete existing items.",
+    url: "https://waterpark-bites.herokuapp.com/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Help! An App for Foodies",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Help! is a full-stack application that provides users a select combination of local Boston restaurants. Help! utilizes user authentication to allow users to create and publish reviews on popular dishes from these restaurants.",
+    url: "https://help-front-end.herokuapp.com/",
   },
   {
-    title: "My Resume Site",
+    title: "Gather",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Gather is a full-stack PERN (Postgres, Express, React, Node) application that serves to connect communities through local events. Upon creating an account through user authentication, Gather provides categories of events taking place in the local area. By clicking into specific categories, users are provided with a list of events in that category and a detailed event description and date. Users can also create an event and later update or delete an event they've created. Gather implements front-end and back-end programming technologies to provide community members with listings of local events, and the ability to create, update, or delete their listings.",
+    url: "https://gather-vermont.herokuapp.com/",
   },
 ];
 

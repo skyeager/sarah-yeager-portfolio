@@ -16,15 +16,15 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/about-image.jpg";
+import image from "../images/speckled-cloud.jpg";
 
-const imageAltText = "profile person typing";
+const imageAltText = "Speckled cloud";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a full-stack software engineer with a background in healthcare. I have a passion for creating aesthetic, accessible, and responsive applications. I am excited to continue advancing my skills and knowledge in the world of technology.";
+  "As a full-stack software engineer with a background in healthcare, I have a passion for creating aesthetic, accessible, and responsive applications. I am excited to further my skills and knowledge as I continue my career in technology.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
