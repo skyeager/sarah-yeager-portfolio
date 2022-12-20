@@ -27177,12 +27177,12 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  *
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
- */ var _aboutImageJpg = require("../images/about-image.jpg");
-var _aboutImageJpgDefault = parcelHelpers.interopDefault(_aboutImageJpg);
-const imageAltText = "profile person typing";
+ */ var _paintedWhiteJpg = require("../images/painted-white.jpg");
+var _paintedWhiteJpgDefault = parcelHelpers.interopDefault(_paintedWhiteJpg);
+const imageAltText = "Painted white background";
 /**
  * Sort description that expands on your title on the Home component.
- */ const description = "I'm a full-stack software engineer with a background in healthcare. I have a passion for creating aesthetic, accessible, and responsive applications. I am excited to continue advancing my skills and knowledge in the world of technology.";
+ */ const description = "As a full-stack software engineer with a background in healthcare, I have a passion for creating aesthetic, accessible, and responsive applications. I am excited to further my skills and knowledge as I continue my career in technology.";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
@@ -27204,7 +27204,7 @@ const About = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "background",
-                src: (0, _aboutImageJpgDefault.default),
+                src: (0, _paintedWhiteJpgDefault.default),
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
@@ -27221,7 +27221,7 @@ const About = ()=>{
                 },
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                        children: "About Myself"
+                        children: "About"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
                         lineNumber: 61,
@@ -27298,7 +27298,7 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/about-image.jpg":"8N4TJ"}],"gkKU3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/painted-white.jpg":"5sAj6"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27448,8 +27448,8 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"8N4TJ":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "about-image.8f393434.jpg" + "?" + Date.now();
+},{"react-refresh/runtime":"786KC"}],"5sAj6":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "painted-white.503da09c.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
 "use strict";
@@ -28755,24 +28755,24 @@ const imageAltText = "portfolio image";
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */ const projectList = [
     {
-        title: "Matching Pairs",
-        description: "The Matching Pairs game delivers an interactive card-matching game through the integration of foundational programming languages: HTML, CSS, and Javascript. Programming concepts illustrated include understanding of scope, function parameters, events listeners, proper syntax and well-organized code.",
-        url: "https://github.com/skyeager/Matching-Pairs-Game"
+        title: "10 Things To Know About Azure Static Web Apps \uD83C\uDF89",
+        description: "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
+        url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i"
     },
     {
-        title: "Wander VT",
-        description: "Wander VT is a full-stack application that serves the active outdoor community of Vermont. This web application includes information regarding elevation, difficulty, distance, and hiker reviews of the most popular hikes in Vermont. Visitors to the Wander VT site, have the ability to read reviews by previous hikers. Further, individuals can also create, update, and delete reviews. This is achieved without user profiles or user authentication. Wander VT is a full-stack project that provide hikers of Vermont with two offerings--more information on Vermont's trails and the ability to document and provide feedback on listed hikes.",
-        url: "https://github.com/skyeager/Wander-VT"
+        title: "Web Development for Beginners",
+        description: "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
+        url: "https://github.com/microsoft/web-dev-for-beginners"
     },
     {
-        title: "Waterpark-Bites",
-        description: "Waterpark-Bites is a full-stack web application that provides waterpark visitors a virtual menu to the waterpark concession stand. Customers can peruse through each menu category to learn more about the different items. Each item will display a description of the item and their cost. This page also offers the ability to create new menu items or delete existing items.",
-        url: "https://github.com/bordencodes/Waterpark-Bites"
+        title: "My Resume Site",
+        description: "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
+        url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website"
     },
     {
-        title: "Help! An App for Foodies",
-        description: "Help! is a full-stack application that provides users a select combination of local Boston restaurants. Help! utilizes user authentication to allow users to create and publish reviews on popular dishes from these restaurants.",
-        url: "https://github.com/skyeager/Help-Front-End"
+        title: "GitHub Codespaces and github.dev",
+        description: "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
+        url: "https://www.youtube.com/watch?v=c3hHhRME_XI"
     }, 
 ];
 const Portfolio = ()=>{
