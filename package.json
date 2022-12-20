@@ -5,9 +5,9 @@
   "source": "src/index.html",
   "homepage": "http://skyeager.github.io/sarah-yeager-portfolio",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://skyeager.github.io/sarah-yeager-portfolio'",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "build-gh": "parcel build src/index.html --public-url 'https://skyeager.github.io/sarah-yeager-portfolio'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
